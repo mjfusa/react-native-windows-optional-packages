@@ -14,7 +14,10 @@ import {
   View,
   Text,
   StatusBar,
+  Button
 } from 'react-native';
+
+import {dosomething} from './ErrorFile'
 
 import {
   Header,
@@ -51,6 +54,7 @@ const App: () => React$Node = () => {
               <Text style={styles.sectionDescription}>
                 <ReloadInstructions />
               </Text>
+              <Button title="Click" onPress={()=>{dosomething();}}/>
             </View>
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Debug</Text>
