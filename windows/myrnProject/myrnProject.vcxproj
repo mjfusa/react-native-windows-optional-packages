@@ -5,7 +5,7 @@
     <CppWinRTOptimized>true</CppWinRTOptimized>
     <CppWinRTRootNamespaceAutoMerge>true</CppWinRTRootNamespaceAutoMerge>
     <MinimalCoreWin>true</MinimalCoreWin>
-    <ProjectGuid>{371a9f5c-7324-4004-a905-8d9f0ee8fc7c}</ProjectGuid>
+    <ProjectGuid>{701d2631-826f-48b8-9f30-d1c42029c647}</ProjectGuid>
     <ProjectName>myrnProject</ProjectName>
     <RootNamespace>myrnProject</RootNamespace>
     <DefaultLanguage>en-US</DefaultLanguage>
@@ -151,6 +151,10 @@
   <ItemGroup>
     <ProjectReference Include="..\..\node_modules\react-native-windows\Microsoft.ReactNative\Microsoft.ReactNative.vcxproj">
       <Project>{f7d32bd0-2749-483e-9a0d-1635ef7e3136}</Project>
+      <Private>true</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\DIWRC\DIWRC.csproj">
+      <Project>{3137d678-5089-47c1-931c-26b4509ce524}</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
@@ -158,7 +162,7 @@
     <BundleCommand>
       npx --no-install react-native bundle --platform windows --entry-file index.js --bundle-output $(MSBuildThisFileDirectory)/Bundle/index.windows.bundle --assets-dest $(MSBuildThisFileDirectory)/Bundle
     </BundleCommand>
-    <PackageCertificateThumbprint>59EB5ACF7901CD2E987558FF64B67F316700BA54</PackageCertificateThumbprint>
+    <PackageCertificateThumbprint>A99EA0A170FC2630463B742F4F70ED6A3E4051D6</PackageCertificateThumbprint>
     <AppxPackageSigningEnabled>True</AppxPackageSigningEnabled>
   </PropertyGroup>
   <Import Project="..\..\node_modules\react-native-windows\PropertySheets\Bundle.Cpp.targets" />

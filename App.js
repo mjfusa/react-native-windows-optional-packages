@@ -18,6 +18,7 @@ import {
 } from 'react-native';
 
 import {dosomething} from './ErrorFile'
+import DeviceInfoComponent from './myDeviceInfo'
 
 import {
   Header,
@@ -48,6 +49,8 @@ const App: () => React$Node = () => {
                 Edit <Text style={styles.highlight}>App.js</Text> to change this
                 screen and then come back to see your edits. 
               </Text>
+              <DeviceInfoComponent/>
+
             </View>
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>See Your Changes</Text>
@@ -114,5 +117,7 @@ const styles = StyleSheet.create({
     textAlign: 'right',
   },
 });
+
+
 
 export default App;

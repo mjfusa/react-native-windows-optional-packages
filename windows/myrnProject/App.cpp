@@ -2,7 +2,7 @@
 
 #include "App.h"
 #include "ReactPackageProvider.h"
-
+#include "winrt/DIWRC.h"
 
 
 using namespace winrt::myrnProject;
@@ -34,6 +34,7 @@ App::App() noexcept
 #endif
 
     PackageProviders().Append(make<ReactPackageProvider>()); // Includes all modules in this project
+    PackageProviders().Append(winrt::DIWRC::ReactPackageProvider());
 
     REACT_REGISTER_NATIVE_MODULE_PACKAGES(); //code-gen macro from autolink
 
