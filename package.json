@@ -10,9 +10,14 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@types/jest": "^25.2.1",
+    "@types/react": "^16.9.34",
+    "@types/react-native": "^0.62.2",
+    "@types/react-test-renderer": "^16.9.2",
     "react": "16.9.0",
     "react-native": "0.61.5",
-    "react-native-windows": "^0.61.0-0"
+    "react-native-windows": "^0.61.0-0",
+    "typescript": "^3.8.3"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
