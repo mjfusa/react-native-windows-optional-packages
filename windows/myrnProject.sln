@@ -42,6 +42,8 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Microsoft.ReactNative.Share
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIWRC", "DIWRC\DIWRC.csproj", "{3137D678-5089-47C1-931C-26B4509CE524}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DeviceInfoCPP", "DeviceInfoCPP\DeviceInfoCPP\DeviceInfoCPP.vcxproj", "{7AC1403E-D43B-43C4-B406-D5B2AD2531E0}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		..\node_modules\react-native-windows\JSI\Shared\JSI.Shared.vcxitems*{0cc28589-39e4-4288-b162-97b959f8b843}*SharedItemsImports = 9
@@ -49,6 +51,7 @@ Global
 		..\node_modules\react-native-windows\Microsoft.ReactNative.SharedManaged\Microsoft.ReactNative.SharedManaged.projitems*{3137d678-5089-47c1-931c-26b4509ce524}*SharedItemsImports = 4
 		..\node_modules\react-native-windows\Microsoft.ReactNative.SharedManaged\Microsoft.ReactNative.SharedManaged.projitems*{67a1076f-7790-4203-86ea-4402ccb5e782}*SharedItemsImports = 13
 		..\node_modules\react-native-windows\Microsoft.ReactNative.Cxx\Microsoft.ReactNative.Cxx.vcxitems*{701d2631-826f-48b8-9f30-d1c42029c647}*SharedItemsImports = 4
+		..\node_modules\react-native-windows\Microsoft.ReactNative.Cxx\Microsoft.ReactNative.Cxx.vcxitems*{7ac1403e-d43b-43c4-b406-d5b2ad2531e0}*SharedItemsImports = 4
 		..\node_modules\react-native-windows\Mso\Mso.vcxitems*{84e05bfa-cbaf-4f0d-bfb6-4ce85742a57e}*SharedItemsImports = 9
 		..\node_modules\react-native-windows\JSI\Shared\JSI.Shared.vcxitems*{a62d504a-16b8-41d2-9f19-e2e86019e5e4}*SharedItemsImports = 4
 		..\node_modules\react-native-windows\Chakra\Chakra.vcxitems*{c38970c0-5fbf-4d69-90d8-cbac225ae895}*SharedItemsImports = 9
@@ -225,6 +228,22 @@ Global
 		{3137D678-5089-47C1-931C-26B4509CE524}.Release|x64.Build.0 = Release|x64
 		{3137D678-5089-47C1-931C-26B4509CE524}.Release|x86.ActiveCfg = Release|x86
 		{3137D678-5089-47C1-931C-26B4509CE524}.Release|x86.Build.0 = Release|x86
+		{7AC1403E-D43B-43C4-B406-D5B2AD2531E0}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{7AC1403E-D43B-43C4-B406-D5B2AD2531E0}.Debug|ARM.ActiveCfg = Debug|ARM
+		{7AC1403E-D43B-43C4-B406-D5B2AD2531E0}.Debug|ARM.Build.0 = Debug|ARM
+		{7AC1403E-D43B-43C4-B406-D5B2AD2531E0}.Debug|ARM64.ActiveCfg = Debug|Win32
+		{7AC1403E-D43B-43C4-B406-D5B2AD2531E0}.Debug|x64.ActiveCfg = Debug|x64
+		{7AC1403E-D43B-43C4-B406-D5B2AD2531E0}.Debug|x64.Build.0 = Debug|x64
+		{7AC1403E-D43B-43C4-B406-D5B2AD2531E0}.Debug|x86.ActiveCfg = Debug|Win32
+		{7AC1403E-D43B-43C4-B406-D5B2AD2531E0}.Debug|x86.Build.0 = Debug|Win32
+		{7AC1403E-D43B-43C4-B406-D5B2AD2531E0}.Release|Any CPU.ActiveCfg = Release|Win32
+		{7AC1403E-D43B-43C4-B406-D5B2AD2531E0}.Release|ARM.ActiveCfg = Release|ARM
+		{7AC1403E-D43B-43C4-B406-D5B2AD2531E0}.Release|ARM.Build.0 = Release|ARM
+		{7AC1403E-D43B-43C4-B406-D5B2AD2531E0}.Release|ARM64.ActiveCfg = Release|Win32
+		{7AC1403E-D43B-43C4-B406-D5B2AD2531E0}.Release|x64.ActiveCfg = Release|x64
+		{7AC1403E-D43B-43C4-B406-D5B2AD2531E0}.Release|x64.Build.0 = Release|x64
+		{7AC1403E-D43B-43C4-B406-D5B2AD2531E0}.Release|x86.ActiveCfg = Release|Win32
+		{7AC1403E-D43B-43C4-B406-D5B2AD2531E0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
