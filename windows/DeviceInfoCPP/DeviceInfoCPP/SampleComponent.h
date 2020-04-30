@@ -2,8 +2,11 @@
 
 #include "SampleComponent.g.h"
 
+#include "NativeModules.h"
+
 namespace winrt::DeviceInfoCPP::implementation
 {
+    REACT_MODULE(SampleComponent);
     struct SampleComponent : SampleComponentT<SampleComponent>
     {
         SampleComponent() = default;

@@ -7,6 +7,7 @@ using namespace winrt::Windows::Security::ExchangeActiveSyncProvisioning;
 
 namespace winrt::DeviceInfoCPP::implementation
 {
+    REACT_METHOD(DeviceInfo, L"deviceInfo");
     winrt::hstring SampleComponent::DeviceInfo()
     {
         auto info = EasClientDeviceInformation();
