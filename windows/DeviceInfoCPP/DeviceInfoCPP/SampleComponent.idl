@@ -1,0 +1,9 @@
+namespace DeviceInfoCPP
+{
+    [default_interface]
+    runtimeclass SampleComponent
+    {
+        SampleComponent();
+        String DeviceInfo;
+    }
+}
