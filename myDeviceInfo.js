@@ -30,7 +30,7 @@ class DeviceInfoComponent extends React.Component {
     getDeviceModel = () => {
         return new Promise((resolve, reject) => {
           var vm = NativeModules.SampleComponent;
-            vm.getDeviceModel(function(result, error) {
+            vm.deviceModel(function(result, error) {
                 if (error) {
                     reject(error);
                 }

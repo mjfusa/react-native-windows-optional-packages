@@ -11,15 +11,20 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Class.cpp" />
     <ClCompile Include="$(GeneratedFilesDir)module.g.cpp" />
     <ClCompile Include="ReactPackageProvider.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
     <ClInclude Include="ReactPackageProvider.h" />
+    <ClInclude Include="SampleComponent.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="DeviceInfoCPP.def" />
+    <Midl Include="ReactPackageProvider.idl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DeviceInfo2.def" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -27,9 +32,5 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="readme.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <Midl Include="SampleComponent.idl" />
-    <Midl Include="ReactPackageProvider.idl" />
   </ItemGroup>
 </Project>

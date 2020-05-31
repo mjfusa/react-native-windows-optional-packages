@@ -1,5 +1,5 @@
 ========================================================================
-    C++/WinRT DeviceInfoCPP Project Overview
+    C++/WinRT DeviceInfo2 Project Overview
 ========================================================================
 
 This project demonstrates how to get started authoring Windows Runtime 
