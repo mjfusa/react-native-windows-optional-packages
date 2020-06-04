@@ -52,6 +52,7 @@
     <None Include="PropertySheet.props" />
     <None Include="packages.config" />
     <None Include="myrnProject_TemporaryKey.pfx" />
+    <None Include="Package.StoreAssociation.xml" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="readme.txt" />
