@@ -52,6 +52,7 @@ bool App::IsPackageInstalled(std::wstring_view moduleName)
     auto library = LoadPackagedLibrary(moduleName.data(), 0);
     if (library)
     {
+        FreeLibrary(library);
         return true;
     }
     return false;
