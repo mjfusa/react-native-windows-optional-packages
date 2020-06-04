@@ -2,7 +2,7 @@
 
 #include "App.h"
 #include "ReactPackageProvider.h"
-
+#include <headers/DeviceInfo2.h>
 
 
 using namespace winrt::myrnProject;
@@ -34,7 +34,9 @@ App::App() noexcept
 #endif
 
     PackageProviders().Append(make<ReactPackageProvider>()); // Includes all modules in this project
-
+    
+    if (IsPackageInstalled(L"DeviceInfo2.dll"))
+        PackageProviders().Append(winrt::DeviceInfo2::ReactPackageProvider());
     REACT_REGISTER_NATIVE_MODULE_PACKAGES(); //code-gen macro from autolink
 
     InitializeComponent();
@@ -44,5 +46,19 @@ App::App() noexcept
     AddRef();
     m_inner.as<::IUnknown>()->Release();
 }
+
+bool App::IsPackageInstalled(std::wstring_view moduleName)
+{
+    auto library = LoadPackagedLibrary(moduleName.data(), 0);
+    if (library)
+    {
+        FreeLibrary(library);
+        return true;
+    }
+    return false;
+}
+
+
+
 
 

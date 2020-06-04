@@ -1,0 +1,5 @@
+[Files]
+".\AppPackages\BgLabelControlApp\BgLabelControlApp_1.0.0.0_x64_Test\BgLabelControlApp_1.0.0.0_x64.appx" "BgLabelControlApp_1.0.0.0_x64.appx"
+
+[ExternalPackages]
+".\AppPackages\OptionalPackage4\OptionalPackage4_1.0.1.0_Test\OptionalPackage4_1.0.1.0_x64.appxbundle" "OptionalPackage4_1.0.1.0_x64.appxbundle"
