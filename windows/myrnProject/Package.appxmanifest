@@ -9,7 +9,7 @@
  <Identity
     Name="57012MikeFrancis.ContosoAppBundle"
     Publisher="CN=mikefra"
-    Version="1.0.2.0" />
+    Version="1.0.3.0" />
 
   <mp:PhoneIdentity PhoneProductId="69e37f30-6d0f-427f-966a-9cd7f18898ab" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 

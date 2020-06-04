@@ -1,5 +1,5 @@
 [Files]
-".\AppPackages\myrnProject\myrnProject_1.0.2.0_x64_Debug_Test\myrnProject_1.0.2.0_x64_Debug.appx" "myrnProject_1.0.2.0_x64_Debug.appx"
+".\AppPackages\myrnProject\myrnProject_1.0.3.0_x64_Debug_Test\myrnProject_1.0.3.0_x64_Debug.appx" "myrnProject_1.0.3.0_x64_Debug.appx"
 
 [ExternalPackages]
-".\OptionalPackage1\AppPackages\OptionalPackage1_1.0.1.0_x64_Debug_Test\OptionalPackage1_1.0.1.0_x64_Debug.appx" "OptionalPackage1_1.0.1.0_x64_Debug.appx"
+".\OptionalPackage1\AppPackages\OptionalPackage1_1.0.2.0_x64_Debug_Test\OptionalPackage1_1.0.2.0_x64_Debug.appx" "OptionalPackage1_1.0.2.0_x64_Debug.appx"

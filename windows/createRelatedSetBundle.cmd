@@ -1,6 +1,6 @@
 if "%2" NEQ "" goto release
 REM Debug
-MakeAppx.exe bundle  /o /p AppPackages\out.appxbundle /f Bundle.Mapping.txt
+MakeAppx.exe bundle  /o /p AppPackages\out.appxbundle /f Bundle.Mapping2.txt
 goto sign
 :release
 REM Release
