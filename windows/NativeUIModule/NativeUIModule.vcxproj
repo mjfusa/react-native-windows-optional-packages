@@ -118,15 +118,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="MyUserControlViewManagerCPP.h" />
     <ClInclude Include="DebugHelpers.h" />
     <ClInclude Include="MyUserControl.h">
       <DependentUpon>MyUserControl.xaml</DependentUpon>
       <SubType>Code</SubType>
     </ClInclude>
     <ClInclude Include="pch.h" />
-    <ClInclude Include="SampleModuleCPP.h" />
+    <ClInclude Include="ReactPackageProvider.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="MyUserControlViewManagerCPP.cpp" />
     <ClCompile Include="DebugHelpers.cpp" />
     <ClCompile Include="MyUserControl.cpp">
       <DependentUpon>MyUserControl.xaml</DependentUpon>
@@ -136,12 +138,14 @@
       <PrecompiledHeader>Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="$(GeneratedFilesDir)module.g.cpp" />
+    <ClCompile Include="ReactPackageProvider.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Midl Include="MyUserControl.idl">
       <DependentUpon>MyUserControl.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Midl>
+    <Midl Include="ReactPackageProvider.idl" />
   </ItemGroup>
   <ItemGroup>
     <None Include="NativeUIModule.def" />
