@@ -1,0 +1,14 @@
+namespace NativeUIModule
+{
+	[default_interface]
+	runtimeclass MyUserControl : Windows.UI.Xaml.Controls.UserControl
+	{
+		MyUserControl();
+	static Windows.UI.Xaml.DependencyProperty LabelProperty{
+	  get;
+	};
+
+	String Label;
+
+	}
+}
